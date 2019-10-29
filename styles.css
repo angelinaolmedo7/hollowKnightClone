@@ -1,0 +1,55 @@
+.hero-background-img:after {
+    content: "";
+    position: absolute;
+    background-image: url("https://hollowknight.com/wp-content/uploads/2018/09/banner_type_02.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .jumbotron {
+      background-color: transparent;
+  }
+  .container {
+      background-color: #000;
+      color: #fff      
+  }
+  .center {
+      text-align: center;
+  }
+  p {
+      font-family: sans-serif;
+      font-size: 80%;
+      letter-spacing: 0.03em;
+      font-weight: 250;
+  }
+  h3 {
+    font-size: 100%;
+    color: #fff;
+    letter-spacing: 0.03em;
+    font-weight: 250;
+  }
+  h2 {
+      font-size: 140%;
+      color: #fff;  
+      letter-spacing: 0.03em;
+      font-weight: 250;
+  }
+  h1 {
+     letter-spacing: 0.05em;
+     font-weight: 250;
+  }
+  .contained_img {
+      width: 100%;
+  }
+  body {
+    background-color: #000;
+    color: #fff;  
+}
+.embed-responsive {
+    width: 100%;
+}
